@@ -42,6 +42,8 @@ import ShipmentList from './pages/customer/shipments/shipment-list';
 import CustomerProfile from './pages/customer/profile/customer-profile';
 import CustomerBillings from './pages/customer/billings/dashboard';
 import NewShipment from './pages/customer/shipments/new-shipment';
+import FirstShipment from './pages/customer/shipments/first-shipment';
+
 class Index extends Component {
     render() {
         return (
@@ -92,6 +94,7 @@ class Index extends Component {
                             <Route path='/customer-profile' component={CustomerProfile} />
                             <Route path='/customer-billings' component={CustomerBillings} />
                             <Route path='/new-shipment' component={NewShipment} />
+                            <Route path='/first-shipment' component={FirstShipment} />
                         </Switch>
                     </div>
                 </BrowserRouter>
