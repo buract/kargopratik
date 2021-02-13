@@ -8706,7 +8706,7 @@ button,
   border-radius: 10px;
   min-width: 130px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   align-items: center !important; }
 
 .table th,
@@ -8733,6 +8733,14 @@ button,
     .table tr th:last-child {
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px; }
+
+.ag-theme-material {
+  font-family: "Graphik" !important;
+  font-size: 1rem !important; }
+  .ag-theme-material .ag-header-row {
+    font-size: 0.675rem !important;
+    font-weight: 500 !important;
+    text-transform: uppercase; }
 
 .widget-card {
   background: #F6F5FE;
