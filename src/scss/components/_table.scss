@@ -31,6 +31,15 @@
         }
     }
 }
+.ag-theme-material{
+    font-family: $font-family-base !important;
+    font-size: $font-size-base !important;
+    .ag-header-row {
+        font-size: $h7-font-size !important;
+        font-weight: 500 !important;
+        text-transform: uppercase;
+    }
+}
 
 // .table-striped {
 //     tbody tr:nth-of-type(#{$table-striped-order}) {
