@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Header2 from '../../../layout/header2';
 import Sidebar from '../../../layout/sidebar';
-import PageTitle from '../../../element/page-title';
+import PageTitle from '../../../partial/customer/shipments/page-title';
 import Footer2 from '../../../layout/footer2';
 import { AgGridColumn, AgGridReact } from 'ag-grid-react';
 
@@ -29,12 +29,12 @@ const App = () => {
                             <p>Daha önce yaptığınız tüm gönderilerinizin detayını buradan inceleyebilirsiniz.</p>
                         </div>
                         <div className="col-xl-6">
-                            <button className="btn btn-success float-right">Excel</button>
+                            <a className="btn btn-success float-right"> <i className="align-text-bottom ri-xl mr-2 ri-file-excel-2-fill"></i>Excel İndir</a>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-xl-12">
-                            <div className="ag-theme-material" style={{ height: 400, width: 1440 }}>
+                        <div className="col-xl-12 card px-3 py-3">
+                            <div className="ag-theme-material" style={{ height: 800, width: '100%' }}>
                                 <AgGridReact
                                     rowData={rowData}>
                                     <AgGridColumn field="id" sortable={ true } filter={ true }></AgGridColumn>
