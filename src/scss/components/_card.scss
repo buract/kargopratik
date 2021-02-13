@@ -3,12 +3,12 @@
     margin-bottom: 30px;
     border-radius: 5px;
     // box-shadow   : 0px 36px 48px rgba(31, 66, 135, 0.04);
-    background: transparent;
+    background: $white;
     &-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid $border-color;
+        //border-bottom: 1px solid $border-color;
         background: transparent;
         padding: 30 0px;
         // margin      : 0px 35px;
@@ -64,6 +64,34 @@
     height: 452px;
     .media{
     padding: 36.5px 30px;
+    align-items: center;
+    border-bottom: 0px solid #f1f4f8;
+    background: #ffffff;
+    border-radius: 15px;
+    }
+    .card-head{
+        font-size: $card-head;
+    }
+    .caption{
+        font-size: $h6-font-size;
+        color: $head-gray;
+    }
+    i{
+        margin-bottom: 0.5rem;
+        color: $primary;
+    }
+}
+
+.input-card{
+    
+    border: 0px;
+    margin-bottom: 30px;
+    background: #ffffff !important;
+    border-radius: 16px;
+    
+    
+    
+    .media{padding: 36.5px 30px;
     align-items: center;
     border-bottom: 0px solid #f1f4f8;
     background: #ffffff;

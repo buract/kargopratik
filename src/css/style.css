@@ -8363,12 +8363,11 @@ a {
   border: 0px;
   margin-bottom: 30px;
   border-radius: 5px;
-  background: transparent; }
+  background: #fff; }
   .card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #f1f4f8;
     background: transparent;
     padding: 30 0px; }
     @media only screen and (min-width: 1200px) {
@@ -8421,6 +8420,26 @@ a {
     font-size: 0.875rem;
     color: #B0ADCA; }
   .profile-card i {
+    margin-bottom: 0.5rem;
+    color: #000; }
+
+.input-card {
+  border: 0px;
+  margin-bottom: 30px;
+  background: #ffffff !important;
+  border-radius: 16px; }
+  .input-card .media {
+    padding: 36.5px 30px;
+    align-items: center;
+    border-bottom: 0px solid #f1f4f8;
+    background: #ffffff;
+    border-radius: 15px; }
+  .input-card .card-head {
+    font-size: 1.313rem; }
+  .input-card .caption {
+    font-size: 0.875rem;
+    color: #B0ADCA; }
+  .input-card i {
     margin-bottom: 0.5rem;
     color: #000; }
 
@@ -8682,7 +8701,7 @@ label.error {
 
 button,
 .btn {
-  padding: 5px 30px;
+  padding: 10px 30px;
   display: inline-block;
   border-radius: 10px;
   min-width: 130px;
