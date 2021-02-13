@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url('../graphik/Graphik-Bold.eot');
+  src: url('../graphik/Graphik-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../graphik/Graphik-Bold.woff2') format('woff2'),
+  url('../graphik/Graphik-Bold.woff') format('woff'),
+  url('../graphik/Graphik-Bold.svg#Graphik-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../graphik/Graphik-Medium.eot');
+  src: url('../graphik/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../graphik/Graphik-Medium.woff2') format('woff2'),
+  url('../graphik/Graphik-Medium.woff') format('woff'),
+  url('../graphik/Graphik-Medium.svg#Graphik-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../graphik/Graphik-Regular.eot');
+  src: url('../graphik/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../graphik/Graphik-Regular.woff2') format('woff2'),
+  url('../graphik/Graphik-Regular.woff') format('woff'),
+  url('../graphik/Graphik-Regular.svg#Graphik-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
