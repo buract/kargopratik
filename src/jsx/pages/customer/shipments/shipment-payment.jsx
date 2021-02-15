@@ -16,11 +16,11 @@ function Payment() {
             <div className="verification section-padding">
                 <div className="container h-100">
                     <div className="row justify-content-center h-100 align-items-center">
-                        <div className="col-xl-5 col-md-6">
-                            <div className="auth-form card">
+                        <div className="col-xl-6 col-md-6">
+                            <div className="auth-form card ">
                                 <div className="card-body ">
                                     <div className="card-head mb-5 payment-content ">
-                                        <span className="icon"> <i className="ri-coin-fill"></i></span>
+                                        <span className="icon"> <i className="ri-coin-fill text-primary"></i></span>
                                         <h4 className="align-self-center">Gönderi Onay</h4>
 
                                     </div>

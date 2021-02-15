@@ -47,6 +47,7 @@ import Payment from './pages/customer/shipments/shipment-payment';
 import PaymentFail from './pages/customer/shipments/shipment-payment-fail';
 import PaymentSuccess from './pages/customer/shipments/shipment-payment-success';
 import PaymentAlert from './pages/customer/shipments/shipment-payment-alert';
+import AddBalance from './pages/customer/billings/add-balance';
 
 class Index extends Component {
     render() {
@@ -103,6 +104,7 @@ class Index extends Component {
                             <Route path='/shipment-payment-fail' component={PaymentFail} />
                             <Route path='/shipment-payment-success' component={PaymentSuccess} />
                             <Route path='/shipment-payment-alert' component={PaymentAlert} />
+                            <Route path='/add-balance' component={AddBalance} />
                         </Switch>
                     </div>
                 </BrowserRouter>
