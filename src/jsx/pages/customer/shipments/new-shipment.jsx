@@ -140,6 +140,7 @@ function NewShipment() {
 
                             <div className="col-12">
                                                         <button className="btn col-3 btn-primary mb-5 float-right waves-effect">Gönder</button>
+                                                        <button className="btn col-3 btn text-primary mb-5 float-right waves-effect">Hesapla</button>
                              </div>
                         </div>
                     </div>
