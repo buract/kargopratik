@@ -48,6 +48,11 @@ import PaymentFail from './pages/customer/shipments/shipment-payment-fail';
 import PaymentSuccess from './pages/customer/shipments/shipment-payment-success';
 import PaymentAlert from './pages/customer/shipments/shipment-payment-alert';
 import AddBalance from './pages/customer/billings/add-balance';
+import AddBalanceCheckout from './pages/customer/billings/add-balance-checkout';
+import NewAddBalanceCheckout from './pages/customer/billings/add-balance-new-checkout-';
+import NewCreditcard from './pages/customer/billings/add-balance-new-creditcard';
+import AddBalancePaymentSuccess from './pages/customer/billings/add-balance-payment-success';
+import AddBalancePaymentFail from './pages/customer/billings/add-balance-payment-fail';
 
 class Index extends Component {
     render() {
@@ -105,6 +110,11 @@ class Index extends Component {
                             <Route path='/shipment-payment-success' component={PaymentSuccess} />
                             <Route path='/shipment-payment-alert' component={PaymentAlert} />
                             <Route path='/add-balance' component={AddBalance} />
+                            <Route path='/add-balance-checkout' component={AddBalanceCheckout} />
+                            <Route path='/add-balance-new-checkout' component={NewAddBalanceCheckout} />
+                            <Route path='/add-new-creditcard' component={NewCreditcard} />
+                            <Route path='/add-balance-payment-success' component={AddBalancePaymentSuccess} />
+                            <Route path='/add-balance-payment-fail' component={AddBalancePaymentFail} />
                         </Switch>
                     </div>
                 </BrowserRouter>

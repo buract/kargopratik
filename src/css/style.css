@@ -8723,7 +8723,7 @@ button,
   border-spacing: 0 1rem; }
   .table tr td,
   .table tr th {
-    background: #F6F5FE;
+    background: #fff;
     border: 0px;
     vertical-align: middle; }
     .table tr td:first-child,
@@ -8820,7 +8820,9 @@ button,
     margin-bottom: 5px; }
 
 .transaction-table td {
-  padding: 1.25rem 0.75rem; }
+  padding: 1.25rem 2rem; }
+  .transaction-table td a {
+    color: black !important; }
 
 .transaction-table i.cc {
   font-size: 22px;
@@ -9727,7 +9729,10 @@ button,
     margin: 0 auto 30px; }
 
 .caption {
-  font-size: 12px; }
+  font-size: 12px !important; }
+
+.body-2 {
+  font-size: 14px !important; }
 
 .payment-body {
   border-bottom: 1px solid #777; }

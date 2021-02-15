@@ -17,7 +17,7 @@
     tr {
         td,
         th {
-            background: $gray-100;
+            background: $white;
             border: 0px;
             vertical-align: middle;
             &:first-child {
@@ -29,7 +29,10 @@
                 border-bottom-right-radius: 5px;
             }
         }
+        
+        
     }
+    
 }
 .ag-theme-material{
     font-family: $font-family-base !important;
