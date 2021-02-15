@@ -53,6 +53,8 @@ import NewAddBalanceCheckout from './pages/customer/billings/add-balance-new-che
 import NewCreditcard from './pages/customer/billings/add-balance-new-creditcard';
 import AddBalancePaymentSuccess from './pages/customer/billings/add-balance-payment-success';
 import AddBalancePaymentFail from './pages/customer/billings/add-balance-payment-fail';
+import SettingsShipper from './pages/customer/settings/settings-shipper';
+import AccountFreeze from './pages/customer/settings/settings-account-freeze';
 
 class Index extends Component {
     render() {
@@ -115,6 +117,8 @@ class Index extends Component {
                             <Route path='/add-new-creditcard' component={NewCreditcard} />
                             <Route path='/add-balance-payment-success' component={AddBalancePaymentSuccess} />
                             <Route path='/add-balance-payment-fail' component={AddBalancePaymentFail} />
+                            <Route path='/settings-shipper' component={SettingsShipper} />
+                            <Route path='/settings-account-freeze' component={AccountFreeze} />
                         </Switch>
                     </div>
                 </BrowserRouter>

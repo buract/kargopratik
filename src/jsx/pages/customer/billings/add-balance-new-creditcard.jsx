@@ -33,7 +33,7 @@ function NewCreditcard() {
                                             <form>
                                                 <div class="form-group">
                                                     <label for="CardNumber" className="mb-1 grays-gray-200 body-2 ">Kart Numarası</label>
-                                                    <input type="text" class="form-control" id="CardNumber" placeholder="Tutar giriniz"/>
+                                                    <input type="text" class="form-control" id="CardNumber" placeholder="**** **** **** ****"/>
                                                 </div> 
                                                 <div class="form-group">
                                                     <label for="CardOwner" className="mb-1 grays-gray-200 body-2 ">Kart Sahibi  </label>

@@ -50,7 +50,7 @@ function Preferences() {
                                                     </div>
 
                                                     <div className="col-12">
-                                                        <button className="btn btn-success">Kaydet</button>
+                                                        <button className="btn btn-primary">Kaydet</button>
                                                     </div>
                                                 </div>
                                             </form>

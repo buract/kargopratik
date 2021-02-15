@@ -7,7 +7,7 @@ import SettingsNav from '../../../partial/customer/settings/settings-nav';
 
 
 
-function SettingsProfile() {
+function SettingsShipper() {
 
     return (
         <>
@@ -26,7 +26,7 @@ function SettingsProfile() {
                                 <div className="col-xl-12">
                                     <div className="card">
                                         <div className="card-header">
-                                            <h4 className="card-title">Kişisel Bilgiler</h4>
+                                            <h4 className="card-title">Gönderici Bilgiler</h4>
                                         </div>
                                         <div className="card-body">
                                             <form action="#">
@@ -65,22 +65,8 @@ function SettingsProfile() {
                                                             <option>Pendik</option>
                                                         </select>
                                                     </div>
-                                                    <div className="col-6">
-                                                        <label className="toggle">
-                                                            <input className="toggle-checkbox" type="checkbox" defaultChecked={true} />
-                                                            <span className="toggle-switch"></span>
-                                                            <span className="toggle-label">Gönderici Bilgilerim Olarak Kaydet</span>
-                                                        </label>
-                                                    </div>
-                                                    <div className="col-6 text-right">
-                                                        <div className="form-check">
-                                                            <input className="form-check-input align-right" type="checkbox" value="" id="addres" checked />
-                                                            <label className="form-check-label               align-text-bottom " htmlFor="iyzico">
-                                                            Fatura adresi olarak kullan
-                                                            </label>
-                                                        </div>
-
-                                                    </div>
+                                                    
+                                                    
                                                     
 
 
@@ -103,4 +89,4 @@ function SettingsProfile() {
     )
 }
 
-export default SettingsProfile;
+export default SettingsShipper;
