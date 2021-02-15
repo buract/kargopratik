@@ -43,6 +43,10 @@ import CustomerProfile from './pages/customer/profile/customer-profile';
 import CustomerBillings from './pages/customer/billings/dashboard';
 import NewShipment from './pages/customer/shipments/new-shipment';
 import FirstShipment from './pages/customer/shipments/first-shipment';
+import Payment from './pages/customer/shipments/shipment-payment';
+import PaymentFail from './pages/customer/shipments/shipment-payment-fail';
+import PaymentSuccess from './pages/customer/shipments/shipment-payment-success';
+import PaymentAlert from './pages/customer/shipments/shipment-payment-alert';
 
 class Index extends Component {
     render() {
@@ -95,6 +99,10 @@ class Index extends Component {
                             <Route path='/customer-billings' component={CustomerBillings} />
                             <Route path='/new-shipment' component={NewShipment} />
                             <Route path='/first-shipment' component={FirstShipment} />
+                            <Route path='/shipment-payment' component={Payment} />
+                            <Route path='/shipment-payment-fail' component={PaymentFail} />
+                            <Route path='/shipment-payment-success' component={PaymentSuccess} />
+                            <Route path='/shipment-payment-alert' component={PaymentAlert} />
                         </Switch>
                     </div>
                 </BrowserRouter>
