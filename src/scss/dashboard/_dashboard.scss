@@ -106,7 +106,10 @@
 
 .transaction-table {
   td {
-    padding: 1.25rem 0.75rem;
+    padding: 1.25rem 2rem;
+    a{
+      color: black !important;
+    }
   }
   i.cc {
     font-size: 22px;
