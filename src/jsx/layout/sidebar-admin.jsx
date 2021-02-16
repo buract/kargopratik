@@ -15,18 +15,14 @@ function Sidebar() {
                                 <span><i className="ri-dashboard-fill"></i></span>
                             </Link>
                         </li>
+                       
                         <li>
-                            <Link to={'./dashboard'} data-toggle="tooltip" data-placement="right" title="Home">
-                                <span><i className="ri-user-fill"></i></span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to={'./dashboard'} data-toggle="tooltip" data-placement="right" title="Home">
+                            <Link to={'./cusutomer-list'} data-toggle="tooltip" data-placement="right" title="Home">
                                 <span><i className="ri-user-star-fill"></i></span>
                             </Link>
                         </li>
                         <li>
-                            <Link to={'./buy-sell'} data-toggle="tooltip" data-placement="right" title="Exchange">
+                            <Link to={'./shipment-list'} data-toggle="tooltip" data-placement="right" title="Exchange">
                                 <span><i className="ri-truck-fill"></i></span>
                             </Link>
                         </li>

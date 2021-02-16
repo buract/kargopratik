@@ -55,6 +55,12 @@ import AddBalancePaymentSuccess from './pages/customer/billings/add-balance-paym
 import AddBalancePaymentFail from './pages/customer/billings/add-balance-payment-fail';
 import SettingsShipper from './pages/customer/settings/settings-shipper';
 import AccountFreeze from './pages/customer/settings/settings-account-freeze';
+import AdminDashboard from './pages/admin/dashboard/admin-dashboard';
+import CustomerDetail from './pages/admin/customer/customer-detail';
+import AdminSettingsCustomer from './pages/admin/settings/admin-settings-customer';
+import AdminPreferences from './pages/admin/settings/admin-settings-preferences';
+import AdminSettingsSecurity from './pages/admin/settings/admin-settings-security';
+
 
 class Index extends Component {
     render() {
@@ -119,6 +125,11 @@ class Index extends Component {
                             <Route path='/add-balance-payment-fail' component={AddBalancePaymentFail} />
                             <Route path='/settings-shipper' component={SettingsShipper} />
                             <Route path='/settings-account-freeze' component={AccountFreeze} />
+                            <Route path='/admin-dashboard' component={AdminDashboard} />
+                            <Route path='/customer-detail' component={CustomerDetail} />
+                            <Route path='/admin-settings-customer' component={AdminSettingsCustomer} />
+                            <Route path='/admin-settings-preferences' component={AdminPreferences} />
+                            <Route path='/admin-settings-security' component={AdminSettingsSecurity} />
                         </Switch>
                     </div>
                 </BrowserRouter>

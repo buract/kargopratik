@@ -11,9 +11,48 @@ import 'ag-grid-community/dist/styles/ag-theme-material.css';
 
 const App = () => {
 
-    const [rowData, setRowData] = useState([
-        { id: "2342352034", receiver: "Ahmet Yazıcı", departure: "Çankırı", arrival: "Çankırı", shipmentDate: "042221", deliveryDate: "042221", status: "Teslim Edildi", pricing: "330" },
-    ]);
+    let columnDefs = [
+        {
+            headerName: "ID",
+            field: "id",
+            filter: true,
+        },
+        {
+            headerName: "Çıkış Adresi",
+            field: "receiver ",
+            filter: true,
+        },
+        {
+            headerName: "departure",
+            field: "departure",
+            filter: true,
+        },
+        {
+            headerName: "departure",
+            field: "arrival",
+            filter: true,
+        },
+        {
+            headerName: "departure",
+            field: "shipmentDate",
+            filter: true,
+        },
+        {
+            headerName: "departure",
+            field: "deliveryDate",
+            filter: true,
+        },
+        {
+            headerName: "departure",
+            field: "status",
+            filter: true,
+        },
+        {
+            headerName: "departure",
+            field: "pricing",
+            filter: true,
+        },
+    ];
 
     return (
         <>
@@ -36,7 +75,8 @@ const App = () => {
                         <div className="col-xl-12 card px-3 py-3">
                             <div className="ag-theme-material" style={{ height: 800, width: '100%' }}>
                                 <AgGridReact
-                                    rowData={rowData}>
+                                
+                                    rowData={columnDefs}>
                                     <AgGridColumn field="id" sortable={ true } filter={ true }></AgGridColumn>
                                     <AgGridColumn field="receiver" sortable={ true } filter={ true }></AgGridColumn>
                                     <AgGridColumn field="departure" sortable={ true } filter={ true }></AgGridColumn>
@@ -46,6 +86,8 @@ const App = () => {
                                     <AgGridColumn field="status" sortable={ true } filter={ true }></AgGridColumn>
                                     <AgGridColumn field="pricing" sortable={ true } filter={ true }></AgGridColumn>
                                 </AgGridReact>
+                                
+                                
                             </div>
                         </div>
                     </div>
