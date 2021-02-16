@@ -26,7 +26,7 @@ function Sidebar() {
                             </Link>
                         </li>
                         <li>
-                            <Link to={'./accounts'} data-toggle="tooltip" data-placement="right" title="Account">
+                            <Link to={'./customer-billings'} data-toggle="tooltip" data-placement="right" title="Account">
                                 <span><i className="ri-wallet-3-fill"></i></span>
                             </Link>
                         </li>

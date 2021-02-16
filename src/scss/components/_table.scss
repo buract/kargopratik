@@ -4,6 +4,7 @@
         padding: 18px;
         // color: $headings-color;
         font-weight: 400;
+        
     }
 }
 
@@ -14,7 +15,10 @@
 .table {
     border-collapse: separate;
     border-spacing: 0 1rem;
+    
     tr {
+        
+
         td,
         th {
             background: $white;
@@ -28,6 +32,7 @@
                 border-top-right-radius: 5px;
                 border-bottom-right-radius: 5px;
             }
+            
         }
         
         
