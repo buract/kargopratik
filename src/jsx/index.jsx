@@ -60,6 +60,7 @@ import CustomerDetail from './pages/admin/customer/customer-detail';
 import AdminSettingsCustomer from './pages/admin/settings/admin-settings-customer';
 import AdminPreferences from './pages/admin/settings/admin-settings-preferences';
 import AdminSettingsSecurity from './pages/admin/settings/admin-settings-security';
+import ShipmentDetail from './pages/customer/shipments/shipment-detail';
 
 
 class Index extends Component {
@@ -96,7 +97,7 @@ class Index extends Component {
                             <Route path='/privacy-policy' component={PrivacyPolicy} />
                             <Route path='/forgot-password' component={ForgotPassword} />
                             <Route path='/sign-in' component={Signin} />
-                            <Route path='/signup' component={Signup} />
+                            <Route path='/sign-up' component={Signup} />
                             <Route path='/signup-step-2' component={SignupStep2} />
                             <Route path='/terms-condition' component={TermsCondition} />
                             <Route path='/verify-step-1' component={VerifyStep1} />
@@ -130,6 +131,7 @@ class Index extends Component {
                             <Route path='/admin-settings-customer' component={AdminSettingsCustomer} />
                             <Route path='/admin-settings-preferences' component={AdminPreferences} />
                             <Route path='/admin-settings-security' component={AdminSettingsSecurity} />
+                            <Route path='/shipment-detail' component={ShipmentDetail} />
                         </Switch>
                     </div>
                 </BrowserRouter>

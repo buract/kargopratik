@@ -8984,6 +8984,44 @@ button,
 .add-multiple:before {
   content: "\ea10"; }
 
+.transaction-table-cust td {
+  padding: 1.25rem 1rem; }
+  .transaction-table-cust td a {
+    color: black !important; }
+
+.transaction-table-cust i.cc {
+  font-size: 22px;
+  margin-right: 10px; }
+
+.transaction-table-cust .sold-thumb {
+  background: #FF788E;
+  color: #fff;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .transaction-table-cust .sold-thumb i {
+    font-weight: 400; }
+
+.transaction-table-cust .buy-thumb {
+  background: #10d876;
+  color: #fff;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .transaction-table-cust .buy-thumb i {
+    font-weight: 400; }
+
+.transaction-table-cust .badge {
+  color: #fff; }
+
 .intro {
   padding: 100px 0px;
   border-bottom: 1px solid #f1f4f8; }
@@ -10185,12 +10223,14 @@ button,
   margin-top: -15px;
   box-shadow: none; }
   #accordion-faq .card {
-    margin-bottom: 0px;
+    margin-bottom: 16px;
     border: 0px solid #f1f4f8;
-    box-shadow: none; }
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between; }
     #accordion-faq .card .card-header {
       border: 0px;
-      padding: 15px 20px; }
+      padding: 34px 20px; }
     #accordion-faq .card .card-body {
       padding: 15px 20px 10px; }
 
