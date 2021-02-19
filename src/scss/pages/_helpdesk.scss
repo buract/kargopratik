@@ -66,9 +66,12 @@
 
 
 .ticket-box-content{
-    background: #ECEEEF;
-    text-align: center;
+    
     padding: 50px 15px;
+    .container{
+        background:url('../../images/linearbg.png');
+
+    }
     p{
         padding: 10px 0 20px;
         margin-bottom: 0px;

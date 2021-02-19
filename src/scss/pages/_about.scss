@@ -16,7 +16,50 @@
 }
 
 .service-img{
+    
     img{
+        position: relative;
+        z-index: 1;
         border-radius: 5px;
+        @media (max-width: 1023px){
+            max-width: 100%;
+          }
     }
+}
+
+.about-two{
+    h3{
+        font-size: 38px;
+        width: 80%;
+    }
+    p{
+        font-size: 20px;
+    }
+    span{
+        font-weight: 500;
+    }
+    #accordion-faq {
+        margin-top: -15px;
+        box-shadow: none;
+        .card {
+          margin-bottom: 16px;
+          border: 0px solid $border-color;
+          box-shadow: none;
+          display: flex;
+          justify-content: space-between;
+          .card-header {
+            border: 0px;
+            padding: 10px 0px;
+          }
+          .card-body {
+            padding: 15px 0px 10px;
+           
+            h5{
+                color: #738282 !important;
+            }
+            
+          }
+          
+        }
+      }
 }

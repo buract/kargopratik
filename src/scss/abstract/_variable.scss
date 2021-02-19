@@ -8,7 +8,7 @@ $body-bg: #fff;
 
 
 
-$body-color: #869ab8;
+$body-color: #738282;
 // Typography
 $font-family-base: 'Graphik';
 $headings-font-weight: 400;
@@ -80,10 +80,12 @@ $sub-heading-size: 1.6rem !default;
 $grid-gutter-width: 30px;
 $dropdown-lik-color: $body-color;
 $border-color: #f1f4f8;
-$headings-color :#161c2d !default;
+$headings-color :#000 !default;
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440);
 // Custom Variable
 $bg-gradient: linear-gradient(31.16deg, #FEEDED -4.58%, rgba(255, 255, 255, 0) 97.7%), radial-gradient(64.47% 62.8% at 106.37% 40.2%, #BDDFFF 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(85.76% 85.76% at 83.63% 14.24%, #E3DEFF 0%, rgba(249, 255, 255, 0) 100%);
+
+$gradient-text: linear-gradient(rgba(255, 207, 207, 1), rgba(183, 216, 255, 1));
 
 
 

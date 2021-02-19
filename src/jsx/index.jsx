@@ -61,6 +61,7 @@ import AdminSettingsCustomer from './pages/admin/settings/admin-settings-custome
 import AdminPreferences from './pages/admin/settings/admin-settings-preferences';
 import AdminSettingsSecurity from './pages/admin/settings/admin-settings-security';
 import ShipmentDetail from './pages/customer/shipments/shipment-detail';
+import LandingPage from './pages/guest';
 
 
 class Index extends Component {
@@ -70,7 +71,8 @@ class Index extends Component {
                 <BrowserRouter basename={'/kargo-pratik'}>
                     <div id="main-wrapper">
                         <Switch>
-                            <Route path='/' exact component={Homepage} />
+                            <Route path='/' exact component={LandingPage} />
+                            <Route path='/homepage' exact component={Homepage} />
                             <Route path='/index2' component={Homepage2} />
                             <Route path='/price' component={Price} />
                             <Route path='/wallet' component={Wallet} />
