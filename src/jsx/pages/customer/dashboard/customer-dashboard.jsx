@@ -5,7 +5,7 @@ import PageTitle from '../../../partial/customer/dashboard/page-title';
 import CreditWarning from '../../../partial/customer/dashboard/credit-warning';
 import Footer2 from '../../../layout/footer2';
 import RecentShipment from "../../../partial/customer/dashboard/recent-shipment";
-
+import ShipmentList from "../../../component/shipment-list";
 
 
 function CustomerDashboard() {
@@ -16,6 +16,7 @@ function CustomerDashboard() {
             <Sidebar />
             <PageTitle />
             <CreditWarning />
+            <ShipmentList />
             
 
 

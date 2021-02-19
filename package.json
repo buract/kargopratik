@@ -10,6 +10,7 @@
     "ag-grid-community": "^25.0.1",
     "ag-grid-react": "^25.0.1",
     "apexcharts": "^3.15.5",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "node-sass": "^5.0.0",
     "peity-react": "0.0.7",
