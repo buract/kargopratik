@@ -16,7 +16,107 @@
 }
 
 .service-img{
+    
     img{
+        position: relative;
+        z-index: 1;
         border-radius: 5px;
+        @media (max-width: 1023px){
+            max-width: 100%;
+          }
     }
+    .dot-grad-5
+    {
+        left: 53% !important;
+        background: rgba(251, 108, 110, 0.14);
+        
+    }
+
+    .dot-grad-3{
+        top: 51%
+
+    }
+}
+
+.service-img-3{
+    img{
+        position: relative;
+        z-index: 1;
+        border-radius: 5px;
+        @media (max-width: 1023px){
+            max-width: 100%;
+          }
+    }
+    .dot-grad-3{
+        top:9%;
+        background: rgba(251, 108, 110, 0.1);
+    }
+
+}
+.service-img-4{
+    img{
+        position: relative;
+        z-index: 1;
+        border-radius: 5px;
+        @media (max-width: 1023px){
+            max-width: 100%;
+          }
+    }
+    .dot-grad-2{
+        top:-25%;
+        background: rgba(226, 213, 255, 0.4);
+
+    }
+    .dot-grad-3{
+        left:-21%;
+        background: rgba(251, 108, 110, 0.1);
+
+    }
+
+}
+
+.service-content{
+    h2{font-size: 38px;
+    margin-bottom: 24px;}
+}
+
+.about-two{
+    h3{
+        font-size: 38px;
+        width: 80%;
+    }
+    p{
+        font-size: 20px;
+    }
+    span{
+        font-weight: 500;
+    }
+    #accordion-faq {
+        margin-top: -15px;
+        box-shadow: none;
+        .card {
+          margin-bottom: 16px;
+          border: 0px solid $border-color;
+          box-shadow: none;
+          display: flex;
+          justify-content: space-between;
+          .card-header {
+            border: 0px;
+            padding: 10px 0px;
+          }
+          .card-body {
+            padding: 15px 0px 10px;
+           
+            h5{
+                color: #738282 !important;
+            }
+            
+          }
+          
+        }
+      }
+}
+
+.mb-10{
+    margin-bottom: 100px;
 }

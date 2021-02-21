@@ -11,7 +11,7 @@ import BlogSingle from './pages/blog-single';
 import Career from './pages/career';
 import Contact from './pages/contact';
 import HelpDesk from './pages/helpdesk';
-import Faq from './pages/faq';
+import Faq from './pages/guest/faq';
 import Dashboard from './pages/dashboard';
 import BuySell from './pages/buy-sell';
 import Accounts from './pages/accounts';
@@ -61,6 +61,8 @@ import AdminSettingsCustomer from './pages/admin/settings/admin-settings-custome
 import AdminPreferences from './pages/admin/settings/admin-settings-preferences';
 import AdminSettingsSecurity from './pages/admin/settings/admin-settings-security';
 import ShipmentDetail from './pages/customer/shipments/shipment-detail';
+import LandingPage from './pages/guest';
+import HowItWorks from './pages/guest/how-it-works';
 
 
 class Index extends Component {
@@ -70,7 +72,8 @@ class Index extends Component {
                 <BrowserRouter basename={'/kargo-pratik'}>
                     <div id="main-wrapper">
                         <Switch>
-                            <Route path='/' exact component={Homepage} />
+                            <Route path='/' exact component={LandingPage} />
+                            <Route path='/homepage' exact component={Homepage} />
                             <Route path='/index2' component={Homepage2} />
                             <Route path='/price' component={Price} />
                             <Route path='/wallet' component={Wallet} />
@@ -132,6 +135,8 @@ class Index extends Component {
                             <Route path='/admin-settings-preferences' component={AdminPreferences} />
                             <Route path='/admin-settings-security' component={AdminSettingsSecurity} />
                             <Route path='/shipment-detail' component={ShipmentDetail} />
+                            <Route path='/how-it-works' component={HowItWorks} />
+                            
                         </Switch>
                     </div>
                 </BrowserRouter>
