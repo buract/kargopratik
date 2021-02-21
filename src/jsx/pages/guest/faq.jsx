@@ -1,7 +1,7 @@
 import React, { } from 'react';
-import Header1 from './../layout/header1';
-import Footer1 from './../layout/footer1';
-import Bottom from './../element/bottom';
+import Header1 from '../../layout/header1';
+import Footer1 from '../../layout/footer1';
+import Bottom from '../../element/bottom';
  import { Link } from 'react-router-dom';
 // import { Row, Col, Card } from 'react-bootstrap'
 
@@ -13,8 +13,25 @@ function Faq() {
         <><Header1 />
             <div className="terms_condition">
                 <div className="container">
+                    <div className="row">
+                        <div className="col-12 mt-5 d-flex intro-inner justify-content-center">
+                            <div className="text-center">
+                                <h1 className="">
+                                    Sıkça Sorulan Sorular
+                                </h1>
+                                <h4>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </h4>
+                            </div>
+                        </div>
+                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-lg-9">
+                        <div className="col-lg-6 service-img-4 terms_condition-content">
+                        <img src={require('../../../images/question.png').default} alt="" className="img-fluid" />
+                        <div className="dot-grad-2"></div>
+                        <div className="dot-grad-3"></div>
+                        </div>
+                        <div className="col-lg-6">
                             <div className="terms_condition-content">
                                 <div className="terms_condition-text">
                                     <h3>Frequently Asked Questions </h3>

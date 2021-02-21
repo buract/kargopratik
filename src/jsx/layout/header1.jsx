@@ -14,13 +14,13 @@ function Header1() {
                         <div className="col-xl-12">
                             <div className="navigation">
                                 <Navbar bg="light" expand="lg">
-                                    <Link className="navbar-brand" to={'/'}><img src={require('./../../images/logo.svg')} alt="" /></Link>
+                                    <Link className="navbar-brand" to={'/'}><img src={require('./../../images/logo.svg').default} alt="" /></Link>
                                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                     <Navbar.Collapse>
                                         <Nav className="navigation">
                                             
-                                            <Nav.Item><Link to={'/how-it-works'}>How it Works</Link></Nav.Item>
-                                            <Nav.Item><Link to={'/wallet'}>FAQ</Link></Nav.Item>
+                                            <Nav.Item><Link className="text-primary" to={'/how-it-works'}>How it Works</Link></Nav.Item>
+                                            <Nav.Item><Link className="text-primary" to={'/wallet'}>FAQ</Link></Nav.Item>
                                         </Nav>
 
                                     </Navbar.Collapse>

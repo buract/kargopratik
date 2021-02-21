@@ -1,10 +1,18 @@
 .bottom {
-  background: #1b2a4e;
+  background: #000;
   .bottom-logo {
     p {
-      // color: #b2b6c4;
+      color: #999;
       line-height: 30px;
       font-weight: 400;
+    }
+    .btn{
+      background: linear-gradient(98.75deg, #E1D3FF 16.47%, rgba(255, 255, 255, 0) 39.25%),
+      radial-gradient(48.29% 78.67% at 54.44% 46.33%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+      linear-gradient(180deg, #FFCFCF 0%, #B7D8FF 100%);
+      color: black;
+      padding: 16px 52px;
+      
     }
   }
   .bottom-widget {
@@ -21,11 +29,40 @@
       li {
         a {
           // color: #b2b6c4;
-          color: $body-color;
+          color: $white;
+          font-weight: 400;
+          margin-bottom: 30px;
+          display: inline-block;
+          .contact{
+            color:#999999 !important;
+          }
+        }
+        
+      }
+    }
+  }
+  .bottom-widget-2 {
+    @include respond("tab-port") {
+      margin-bottom: 30px;
+    }
+    .widget-title {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    ul {
+      li {
+        a {
+          // color: #b2b6c4;
+          color: #999999;
           font-weight: 400;
           margin-bottom: 10px;
           display: inline-block;
+         
+      
         }
+        
       }
     }
   }

@@ -64,10 +64,7 @@ top: 0;
 z-index: -1;
 background: #EDEEF3;
 filter: blur(150px);
--webkit-animation: random 7s infinite;
-animation: random 7s infinite;
-animation: random($limit: 7);
-animation: random 7s infinite;
+
 @media (max-width: 1023px){
   display: none;
 }
@@ -258,3 +255,40 @@ filter: blur(150px);
   }
   
 }
+
+.mug-1{
+  position: absolute;
+  top: 24%;
+  right: 36%;
+}
+
+.mug-2{
+  position: absolute;
+  top: 26%;
+  right: 42%;
+}
+
+.mug-3{
+  position: absolute;
+    top: 34%;
+    right: 46%;
+}
+
+.mug-4{
+  position: absolute;
+    bottom: 25%;
+    right: 50%;
+    width: 17%;
+}
+
+.intro-inner{
+  margin: 48px 0px;
+  h1{
+    font-size: 3rem !important;
+  }
+  h4{
+    color: #8B959E;
+    font-size: 1rem;
+  }
+}
+
