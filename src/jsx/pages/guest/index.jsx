@@ -8,9 +8,9 @@ import heroMobile from '../../../images/hero-mobile.png';
 import Testimonial from '../../element/testimonial';
 import { Accordion, Tabs, Tab, Card } from 'react-bootstrap';
 import bg from '../../../images/linearbg.png';
+import Modal from '../../component/modal';
 
-function LandingPage() {
-
+function App() {
     return (
         <>
             <Header1 />
@@ -127,8 +127,12 @@ function LandingPage() {
                             <div className="service-content my-5">
                                 <h3 className="">Gönderi ücretinizi  saniyeler  içerisinde <span>hızlıca</span>  öğrenin</h3>
                                 <p className="my-lg-4">10,90’dan başlayan fiyatlarla gönderilerinizde <br /> %60’ye varan indirimlerden faydalanın.</p>
-                                <Link to={'#'} className="btn  btn-primary">Gönderi Hesapla</Link>
+                                {/*<Link to={'#'} className="btn  btn-primary">Gönderi Hesapla</Link>*/}
+
+                                <Modal name="Gönderi Hesapla" className="btn  btn-primary"/>
+
                                 <Link to={'#'} className="btn  text-primary">Tüm Fiyatları Keşfet</Link>
+
                             </div>
                         </div>
                         <div className="col-lg-6 text-center text-lg-left order-1 order-lg-2">
@@ -298,4 +302,4 @@ function LandingPage() {
     )
 }
 
-export default LandingPage;
+export default App;
