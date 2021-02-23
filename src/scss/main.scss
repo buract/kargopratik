@@ -21,6 +21,7 @@
 
 @import "./abstract/abstract";
 @import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
 @import "./base/base";
 @import "./layout/layout";
 @import "./components/components";
@@ -28,6 +29,9 @@
 @import "./landing/landing";
 @import "./pages/pages";
 @import "./demo/demo";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
 body{
     background: $bg-gradient;
