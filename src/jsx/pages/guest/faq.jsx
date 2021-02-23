@@ -25,8 +25,8 @@ function Faq() {
                             </div>
                         </div>
                      </div>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-6 service-img-4 terms_condition-content">
+                    <div className="row justify-content-center section-padding">
+                        <div className="col-lg-6 terms_condition-content">
                         <img src={require('../../../images/question.png').default} alt="" className="img-fluid" />
                         <div className="dot-grad-2"></div>
                         <div className="dot-grad-3"></div>
@@ -163,6 +163,30 @@ function Faq() {
                                     </ul>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="py-5 bg-blue-k">
+                <div className="container" >
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="d-lg-flex text-center justify-content-between">
+                                <div className="d-lg-flex align-items-end">
+                                    <img src={require('../../../images/envelope_1.png').default} alt="" className="mr-3 mb-4 mb-lg-0" />
+                                    <h4>Türkiye'nin her yerine, 10,90 TL'den başlayan gönderi ücretleriyle;  </h4>
+
+
+
+                                </div>
+                                <Link to={'#'} className="btn btn-primary mt-4 mt-lg-0"> <span>Tüm Fiyatları Keşfet</span> </Link>
+
+
+                            </div>
+
+
+
+
                         </div>
                     </div>
                 </div>

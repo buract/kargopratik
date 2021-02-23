@@ -78,16 +78,39 @@
 .service-content{
     h2{font-size: 38px;
     margin-bottom: 24px;}
+    @include respond('phone'){
+        p{
+            line-height: 1.5;
+        }
+        h2{
+            font-size: 2rem;
+        }
+    }
 }
 
 .about-two{
-    h3{
-        font-size: 38px;
-        width: 80%;
+       h3{
+        font-size: 1.75rem;
+
+       } 
+    @media only screen and (min-width: 768px) {
+        h3{
+            font-size: 38px;
+            margin-bottom: 32px;
+            
+        }
+        p{
+            font-size: 20px;
+            line-height: 1.5;
+           
+        }
     }
     p{
-        font-size: 20px;
+        line-height: 1.5;
     }
+    
+   
+    
     span{
         font-weight: 500;
     }

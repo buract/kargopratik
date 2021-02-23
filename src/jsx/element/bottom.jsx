@@ -15,11 +15,11 @@ function Bottom() {
                                 <img className="pb-3" src={require('./../../images/logo-white.svg').default} alt="" />
 
                                 <p className="w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id quam turpis amet, a vulputate sapien ut dignissim. Sit.</p>
-                                <Link  className="btn" to={'/faq.html'}>İletişime Geç</Link>
+                                <Link  className="btn my-4" to={'/faq.html'}>İletişime Geç</Link>
                             </div>
                         </div>
                         
-                        <div className="col-xl-3 col-lg-2 col-md-6 col-sm-6">
+                        <div className="col-xl-3 col-lg-2 col-md-6 col-sm-6 mt-5 mt-lg-0">
                             <div className="bottom-widget">
                                 
                                 <ul>

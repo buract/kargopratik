@@ -66,15 +66,25 @@
 
 
 .ticket-box-content{
-    background: linear-gradient(275.14deg, rgba(82, 232, 223, 0.12) 3.05%, rgba(255, 255, 255, 0) 89.23%), linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 127.38%), linear-gradient(98.75deg, #E1D3FF 16.47%, rgba(255, 255, 255, 0) 39.25%), radial-gradient(48.29% 78.67% at 54.44% 46.33%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFCFCF 0%, #B7D8FF 100%);
-    border-radius: 32px;
-    
-    padding: 54px 64px;
-    p{
+    @media only screen and (min-width: 1024px) {
+        h3{
+            font-size: 38px;
+            
+        }
+        p{
         padding: 10px 0 20px;
         margin-bottom: 0px;
         font-size: 20px;
     }
+    padding: 54px 64px;
+    
+        
+    }
+    
+    background: linear-gradient(275.14deg, rgba(82, 232, 223, 0.12) 3.05%, rgba(255, 255, 255, 0) 89.23%), linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 127.38%), linear-gradient(98.75deg, #E1D3FF 16.47%, rgba(255, 255, 255, 0) 39.25%), radial-gradient(48.29% 78.67% at 54.44% 46.33%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFCFCF 0%, #B7D8FF 100%);
+    border-radius: 32px;
+    padding: 32px 32px;
+    
     .btn{
         min-width: 150px;
         font-weight: 400;
@@ -88,11 +98,11 @@
     
     i{
         font-size: 24px;
+        @include respond('phone'){
+            display: none;
+        }
     }
-    h3{
-        font-size: 38px;
-        
-    }
+   
     
 }
 .esnaf{
@@ -102,12 +112,17 @@
     @media (max-width: 1023px){
         display: none;
     }
+    
 }
 
 .sally-1{
     position: absolute;
     bottom:-14%;
     right:32%;
+    -webkit-animation: updown-2 8s infinite;
+animation: updown-2 8s infinite;
+animation-direction: reverse;
+    
     @media (max-width: 1023px){
         display: none;
     }
@@ -117,6 +132,8 @@
     position: absolute;
     top:0px;
     right:-2%;
+    -webkit-animation: updown 8s infinite;
+animation: updown 8s infinite;
     @media (max-width: 1023px){
         display: none;
     }
@@ -126,6 +143,9 @@
     position: absolute;
     bottom:7%;
     right:-7%;
+    -webkit-animation: updown 8s infinite;
+    animation: updown 8s infinite;
+    
     @media (max-width: 1024px){
         right:0%;
     }

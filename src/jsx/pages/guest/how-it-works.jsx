@@ -59,7 +59,7 @@ function HowItWorks() {
 
                             </div>
                         </div>
-                        <div className="col-lg-6 order-1 order-lg-2">
+                        <div className="col-lg-6 order-1 text-center mb-5 mb-lg-0 order-lg-2">
                             <div className="service-img">
                                 <img src={require('../../../images/add-balance.png').default} alt="" className="img-fluid" />
                                 <div className="dot-grad-5"></div>
@@ -73,7 +73,7 @@ function HowItWorks() {
             <div className="about-one section-padding">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 text-center mb-5 mb-lg-0">
                             <div className="service-img-3">
                                 <img src={require('../../../images/create-shipment.png').default} alt="" className="img-fluid" />
 
@@ -102,7 +102,7 @@ function HowItWorks() {
 
                             </div>
                         </div>
-                        <div className="col-lg-6 text-center order-1 order-lg-2">
+                        <div className="col-lg-6 text-center mb-5 mb-lg-0 order-1 order-lg-2">
                             <div className="service-img-4">
                                 <img src={require('../../../images/send-it.png').default} alt="" className="img-fluid" />
 
@@ -117,15 +117,15 @@ function HowItWorks() {
                 <div className="container" >
                     <div className="row">
                         <div className="col-xl-12">
-                            <div className="d-flex justify-content-between">
-                                <div className="col-8 d-flex align-items-end">
-                                    <img src={require('../../../images/envelope_1.png').default} alt="" className="mr-3" />
+                            <div className="d-lg-flex text-center justify-content-between">
+                                <div className="d-lg-flex align-items-end">
+                                    <img src={require('../../../images/envelope_1.png').default} alt="" className="mr-3 mb-4 mb-lg-0" />
                                     <h4>Türkiye'nin her yerine, 10,90 TL'den başlayan gönderi ücretleriyle;  </h4>
 
 
 
                                 </div>
-                                <Link to={'#'} className="btn btn-primary"> <span>Tüm Fiyatları Keşfet</span> </Link>
+                                <Link to={'#'} className="btn btn-primary mt-4 mt-lg-0"> <span>Tüm Fiyatları Keşfet</span> </Link>
 
 
                             </div>
