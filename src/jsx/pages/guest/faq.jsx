@@ -27,9 +27,13 @@ function Faq() {
                      </div>
                     <div className="row justify-content-center section-padding">
                         <div className="col-lg-6 terms_condition-content">
-                        <img src={require('../../../images/question.png').default} alt="" className="img-fluid" />
+                            <div className="sticky-top">
+                            <img src={require('../../../images/question.png').default} alt="" className="img-fluid" />
                         <div className="dot-grad-2"></div>
                         <div className="dot-grad-3"></div>
+
+                            </div>
+                        
                         </div>
                         <div className="col-lg-6">
                             <div className="terms_condition-content">

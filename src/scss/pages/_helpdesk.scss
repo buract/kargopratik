@@ -119,8 +119,8 @@
     position: absolute;
     bottom:-14%;
     right:32%;
-    -webkit-animation: updown-2 8s infinite;
-animation: updown-2 8s infinite;
+    -webkit-animation: updown-2 15s infinite;
+animation: updown-2 15s infinite;
 animation-direction: reverse;
     
     @media (max-width: 1023px){
@@ -132,8 +132,8 @@ animation-direction: reverse;
     position: absolute;
     top:0px;
     right:-2%;
-    -webkit-animation: updown 8s infinite;
-animation: updown 8s infinite;
+    -webkit-animation: updown 16s infinite;
+animation: updown 16s infinite;
     @media (max-width: 1023px){
         display: none;
     }
@@ -143,8 +143,8 @@ animation: updown 8s infinite;
     position: absolute;
     bottom:7%;
     right:-7%;
-    -webkit-animation: updown 8s infinite;
-    animation: updown 8s infinite;
+    -webkit-animation: updown 17s infinite;
+    animation: updown 17s infinite;
     
     @media (max-width: 1024px){
         right:0%;
