@@ -20,7 +20,7 @@ function LandingPage() {
                         <div className="container">
                             <div className="col-xl-12 col-lg-12 col-12">
                                 <div className="intro-content text-center">
-                                    <h1>Ship your package together <br /> <span className="text-bg-gradient"> <i className="act-svg"></i> Pay Less</span> Ship More
+                                    <h1>KargoPratik ile <br /> <span className="text-bg-gradient"> <i className="act-svg"></i> Daha az öde</span> Daha çok gönder
                                 </h1>
                                     <p>Gönderi hacminiz ne olursa olsun, Türkiye'nin her yerine en uygun fiyat avantajıyla</p>
                                 </div>
