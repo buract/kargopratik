@@ -14,7 +14,7 @@ function Header1() {
                         <div className="col-xl-12">
                             <div className="navigation">
                                 <Navbar bg="light" expand="lg">
-                                    <Link className="navbar-brand" to={'/'}><img src={require('./../../images/logo.svg').default} alt="" /></Link>
+                                    <Link className="navbar-brand" to={'/index'}><img src={require('./../../images/logo.svg').default} alt="" /></Link>
                                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                     <Navbar.Collapse className="justify-content-between">
                                         <Nav className="navigation  ">
@@ -29,8 +29,8 @@ function Header1() {
                                         </Nav>
                                         <Nav className="navigation ">
                                             
-                                            <Nav.Item><Link className="btn text-primary" to={'/signin'}>Giriş Yap</Link></Nav.Item>
-                                            <Nav.Item className="ml-0"><Link className="btn  btn-primary" to={'/signin'}>Kayıt Ol</Link></Nav.Item>
+                                            <Nav.Item><Link className="btn text-primary" to={'/sign-in'}>Giriş Yap</Link></Nav.Item>
+                                            <Nav.Item className="ml-0"><Link className="btn  btn-primary" to={'/sign-up'}>Kayıt Ol</Link></Nav.Item>
                                             
                                                 
 

@@ -1,7 +1,7 @@
 {
-  "name": "tradix",
+  "name": "kargo-pratik",
   "version": "0.1.0",
-  "homepage": "https://quixlab.com/demo/tradix_react/",
+  "homepage": "https://quixlab.com/kargo-pratik/index",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -19,7 +19,6 @@
     "react-apexcharts": "^1.3.6",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-modal": "^3.12.1",
     "react-modal-video": "^1.2.3",
     "react-preloaders": "^3.0.3",
     "react-router-dom": "^5.1.2",

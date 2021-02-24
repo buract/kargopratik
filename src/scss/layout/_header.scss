@@ -31,7 +31,7 @@
            margin-left: 64px;
           //width: 100%;
           @include respond("tab-port") {
-            border-bottom: 1px solid $border-color;
+            //border-bottom: 1px solid $border-color;
             margin: 0 15px;
             padding: 7px 15px;
             // background: $primary;
@@ -127,7 +127,7 @@
             border: 0px;
             padding: 0px;
             a {
-              border-bottom: 1px solid $border-color;
+              //border-bottom: 1px solid $border-color;
               padding: 15px;
               color: $body-color;
               // background: #323232;

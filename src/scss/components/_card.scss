@@ -2,6 +2,7 @@
     border: 0px;
     margin-bottom: 30px;
     border-radius: 5px;
+    
     box-shadow: 0px 12px 26px rgba(0, 0, 0, 0.08);
     background: $white;
     &-header {
@@ -26,7 +27,7 @@
         font-weight: 400;
     }
     .card-body {
-        padding: 30px 0px;
+        padding: 16px;
         background: transparent;
         border-radius: 15px;
         @include respond("desktop") {
@@ -83,6 +84,7 @@
 }
 
 .input-card{
+    
     
     border: 0px;
     margin-bottom: 30px;

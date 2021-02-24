@@ -38,134 +38,97 @@ function Faq() {
                         <div className="col-lg-6">
                             <div className="terms_condition-content">
                                 <div className="terms_condition-text">
-                                    <h3>Frequently Asked Questions </h3>
-                                    <p>Tradix is an instant cryptocurrency exchange that allows you to exchange crypto
-                                        fast and buy it with a bank card. The service provides the best crypto-to-crypto
-                                        rates and supports over 140 cryptocurrencies available for exchange
+                                    <h3>Paketlerimi KargoPratik.com üzerinden hangi kargo firmaları ile gönderebilirim?  </h3>
+                                    <p>Şu an MNG Kargo ile işbirliğimiz bulunmakla birlikte, ilerleyen dönemde farklı kargo şirketleri de sistemimize dahil olacaktır.
                                 </p>
                                 </div>
 
 
                                 <div className="terms_condition-text">
-                                    <h3>How does Tradix work? </h3>
+                                    <h3>Üye olmak ve avantajlı gönderi fiyatlarından yararlanmak için aylık kaç adet gönderi yapmamız gerekmektedir? </h3>
                                     <p>
-                                        Tradix’s trading algorithm is integrated into the largest cryptocurrency exchange
-                                        platforms, including Binance, Poloniex, Bittrex, etc. In the span of milliseconds,
-                                        Tradix makes bids and asks on the platforms, then selects and suggests the best
-                                        available rate and displays the estimated rate on our site. The rates remain
-                                        approximate until the transaction is actually made on the blockchain, which is why
-                                        the exchange rate at the time of a transaction may differ slightly from the
-                                        estimated rate that you see when you begin a transaction. To learn more about the
-                                    process, see this <Link to={'#'}>article</Link>
+                                    KargoPratik.com'da herhangi bir taahhüt, kota veya minimum gönderi uygulaması bulunmamaktadır. Ayda bir adet gönderi yapan üyelerimiz de diğer üyelerimiz gibi avantajlı fiyatlarımızdan faydalanabilmektedir.
                                     </p>
                                 </div>
 
 
                                 <div className="terms_condition-text">
-                                    <h3>Why should I trust you? </h3>
-                                    <p>Tradix is one of the most prominent instant cryptocurrency exchanges that has
-                                        gained the trust of more than 2M users from all over the world. The service provides
-                                        safe and fast transactions without revealing users identities. We provide the best
-                                        possible rates by comparing a wide range of reliable trading platforms and work with
-                                    a list of 140+ cryptocurrencies that is constantly increasing.</p>
-                                    <ul>
-                                        <li>
-                                            <i className="fa fa-circle"></i>
-                                            <p>No deposit storage. </p>
-                                        </li>
-                                        <li>
-                                            <i className="fa fa-circle"></i>
-                                            <p>Instant exchange. </p>
-                                        </li>
-                                        <li>
-                                            <i className="fa fa-circle"></i>
-                                            <p>Each account is protected with 2-factor authentication and an HTTPS protocol.
-                                        </p>
-                                        </li>
-                                        <li>
-                                            <i className="fa fa-circle"></i>
-                                            <p>More than 2 million satisfied users.</p>
-                                        </li>
-                                    </ul>
+                                    <h3>KargoPratik.com üyeliği ücretli midir?</h3>
+                                    <p>Hayır, KargoPratik.com üyeliği tamamen ücretsizdir. Üyelik sırasında yükleyeceğiniz işletme evraklarınız 24 saat içerisinde kontrol edilerek üyeliğiniz aktive edilecektir. Üyelik ekranınızdan cari hesabınıza dilediğiniz kadar yükleme yaparak, kargo gönderimine aynı gün başlayabilirsiniz. Gönderi ücretleri, cari hesabınızdan düşülecektir.</p>
+                                   
                                 </div>
 
                                 <div className="terms_condition-text">
-                                    <h3>Does Tradix fix rates? </h3>
-                                    <p>Tradix mobile app does! Mobile app users will no longer be affected by the risks
-                                        associated with crypto market fluctuations. Soon, the fixed-rate exchanges will also
-                                        be implemented on the web version. To lock the current exchange rate, the user needs
-                                        to click on the lock icon, which will result in them getting the exact same amount
-                                        of crypto as is displayed on the screen. The rate is fixed for 15 minutes, which
-                                        should be more than enough to carry out the exchange.
+                                    <h3>KargoPratik.com ile nasıl kargo gönderebilirim? </h3>
+                                    <p>İster bilgisayarınızdan isterseniz de akıllı telefonunuzdan alıcı bilgilerini girerek gönderiniz için birkaç saniye içerisinde kargo numarası yaratabilirsiniz. Kargonuzu, üzerine sadece bu numarayı yazarak dilediğiniz MNG kargo şubesine teslim edebilirsiniz.
     
     
                                 </p>
-                                    <p> Alternatively, Tradix offers our lowest fee of 0.25% for all crypto-to-crypto
-                                    exchanges made at a floating rate.</p>
+                                    
+                                        
+
                                 </div>
 
                                 <div className="terms_condition-text">
-                                    <h3>No warranties : </h3>
-                                    <p>Elaenia is provided “as is” without any representations or warranties. Elaenia.com
-                                        makes no representations or warranties in relation to this website or the
-                                    information and materials provided on this website.</p>
-                                    <p>Elaenia.com does not warrant that:</p>
+                                    <h3>Gönderi ücretleriniz ne kadar? </h3>
+                                    <p>Gönderi adedi ve gönderim bölgesinden bağımsız olarak, fiyatlarımız 10.90 TL’den başlamaktadır. Paket boyutuna göre değişen tüm gönderi fiyatlarımıza ana sayfamızdan ulaşabilirsiniz. </p>
 
-                                    <ul>
-                                        <li>
-                                            <i className="fa fa-circle"></i>
-                                            <p>The website will be constantly available, or available at all moving forward.
-                                        </p>
-                                        </li>
-                                        <li>
-                                            <i className="fa fa-circle"></i>
-                                            <p>The information on this website is complete, true, or non-misleading.</p>
-                                        </li>
-                                    </ul>
+                                    
                                 </div>
 
                                 <div className="terms_condition-text">
-                                    <h3>Privacy : </h3>
-                                    <p>For details about our privacy policy, please refer to the privacy policy section.</p>
+                                    <h3>Gönderi mesafesine göre fiyatlarınız değişiyor mu? </h3>
+                                    <p>Hayır, gönderilerimiz Türkiye’nin her noktasına aynı şekilde ücretlendirilmektedir.</p>
                                 </div>
 
                                 <div className="terms_condition-text">
-                                    <h3>Unenforceable provisions : </h3>
-                                    <p>If any provision of this website disclaimer is, or is found to be, unenforceable
-                                        under applicable law, that will not affect the enforceability of the other
-                                    provisions of this website disclaimer.</p>
+                                    <h3>Bireysel kullanıcılar da KargoPratik.com üzerinden gönderi yapabiliyor mu?</h3>
+                                    <p>KargoPratik.com üzerinden gönderi yapabilmeniz için işletme olmanız gerekmektedir. Ancak, bireysel müşterilerimize sunduğumuz özel fırsatlar için bize ulaşabilirsiniz;  <a href="mailto:info@kargopratik.com">info@kargopratik.com</a></p>
                                 </div>
 
                                 <div className="terms_condition-text">
-                                    <h3>Links : </h3>
-                                    <p>Responsibility for the content of external links (to web pages of third parties) lies
-                                    solely with the operators of the linked pages.</p>
+                                    <h3>Gönderilerimi nasıl takip edebilirim? </h3>
+                                    <p>Tüm gönderileriniz tek bir noktadan, size özel üye panelinizden takip edilebilir ve gönderileriniz durumu hakkında ayrıntılı bilgi alabilirsiniz.</p>
                                 </div>
 
                                 <div className="terms_condition-text">
-                                    <h3>Modifications: </h3>
-                                    <p>Elaenia.com may revise these terms of use for its website at any time without notice.
-                                        By using this web site you are agreeing to be bound by the then current version of
-                                    these terms of service.</p>
+                                    <h3> Kargo bedelleri için nasıl ödeme yapabiliyoruz? </h3>
+                                    <p>Üyeliğiniz onaylandıktan sonra kredi kartınız kullanarak cari hesabınıza dilediğiniz miktarda yükleme yapabilirsiniz. Gönderinizi onayladıktan sonra, gönderileri bedelleri cari hesabınızdan düşecek olup, kargo şubesinde yapılan ölçümler neticesinde beyan edilen ölçülerden farklı olması durumunda oluşacak ücret farkları da yine cari hesabınıza yansıtılacaktır.</p>
                                 </div>
 
                                 <div className="terms_condition-text">
-                                    <h3>Breaches of these terms and conditions: </h3>
-                                    <ul>
-                                        <li>
-                                            <i className="fa fa-circle"></i>
-                                            <p>Elaenia.com reserves the rights under these terms and conditions to take
-                                            action if you breach these terms and conditions in any way. </p>
-                                        </li>
-                                        <li>
-                                            <i className="fa fa-circle"></i>
-                                            <p>Elaenia.com may take such action as seems appropriate to deal with the
-                                                breach, including suspending your access to the website, suspending your
-                                                earnings made trough Elaenia.com,prohibiting you from accessing the
-                                            website, or bringing court proceedings against you.</p>
-                                        </li>
-                                    </ul>
+                                    <h3>Gönderi bedelleri için faturalama nasıl yapılmaktadır? </h3>
+                                    <p>Aylık toplam kargo bedelleriniz, sisteme girdiğiniz fatura bilgilerine istinaden bir sonraki ayın ilk iş günü tarafınıza faturalandırılarak, yine sisteme girdiğiniz e-postanıza otomatik olarak gönderilecektir. </p>
                                 </div>
+                                <div className="terms_condition-text">
+                                    <h3>Gönderimi hazırlarken üzerine hangi bilgileri yazmam gerekmektedir?</h3>
+                                    <p>Gönderinizin üzerine, KargoPratik.com tarafından oluşturulan kargo numaranızdan başka bir şey yazmanıza gerek yoktur. </p>
+                                </div>
+                                <div className="terms_condition-text">
+                                    <h3>Gönderimi hazırladıktan sonra nereye teslim ediyorum? </h3>
+                                    <p>Gönderinizi Türkiye’deki herhangi bir MNG kargo şubesine teslim edebilirsiniz? </p>
+                                </div>
+                                <div className="terms_condition-text">
+                                    <h3>KargoPratik.com hesabı açmak için neler gerekiyor? </h3>
+                                    <p>Üyelik için gereken tüm işletme evraklarına “Üye Ol” alanından ulaşabilirsiniz. İşletme evraklarınıza ek olarak KargoPratik.com sözleşmesini indirmeniz ve bu sözleşmenin, her sayfasının işletme yetkilisi tarafından imzalanıp kaşelenerek diğer evraklarla birlikte sisteme yüklenmesi gerekmektedir. </p>
+                                </div>
+                                <div className="terms_condition-text">
+                                    <h3>Gönderilerimizle ilgili bir sorun yaşamamız durumunda kiminle irtibata geçebiliriz? </h3>
+                                    <p>Gönderileriniz ile ilgili her türlü sorunuzu çalışmakta olduğunuz MNG kargo şubesine veya MNG kargo müşteri temsilcisine iletebilirsiniz. </p>
+                                </div>
+                                <div className="terms_condition-text">
+                                    <h3>Kendi web sitem için entegrasyona ihtiyacım olması durumunda ne yapmam gerekiyor?</h3>
+                                    <p>Özel entegrasyon talepleriniz için bizimle iletişime geçebilirsiniz; <a href="mailto:info@kargopratik.com">info@kargopratik.com.</a></p>
+                                </div>
+                                <div className="terms_condition-text">
+                                    <h3>Müşterim ürününü iade etmek isterse ne yapmalıyım? </h3>
+                                    <p>Ürün iadeleriniz için alıcı bilgileri olarak kendi bilgilerinizi girdiğiniz bir gönderi oluşturabilir ve oluşturulan kargo numarasını müşterinize göndererek kurumsal bir hizmet sağlayabilirsiniz. </p>
+                                </div>
+                                <div className="terms_condition-text">
+                                    <h3>Sizden nasıl ayrıntılı bilgi alabilirim? </h3>
+                                    <p>Tüm sorularınız için bize ulaşabilirsiniz; <a href="mailto:info@kargopratik.com">info@kargopratik.com.</a>  Dilerseniz müşteri temsilcilerimiz sizleri arayabilir ve tüm sorularınıza daha hızlı bir şekilde yanıt alabilirisiniz. </p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
