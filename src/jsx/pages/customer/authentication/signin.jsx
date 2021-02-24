@@ -1,12 +1,15 @@
 import React, { } from 'react';
 import { Link } from 'react-router-dom';
-
+import Header1 from '../../../layout/header1';
+import Footer1 from '../../../layout/footer1';
 
 
 function Signin() {
 
     return (
         <>
+        <Header1 />
+        
             <div className="authincation">
                 <div className="container h-100">
                     <div className="row justify-content-center h-100 align-items-center">
@@ -21,8 +24,8 @@ function Signin() {
                                 <div className="card-body">
                                     <form method="post" name="myform" className="signin_validate" action="#">
                                         <div className="form-group">
-                                            <label>Email</label>
-                                            <input type="email" className="form-control" placeholder="Lütfen kayıtlı email bilginizi girin."
+                                            <label>E-Posta</label>
+                                            <input type="email" className="form-control" placeholder="Lütfen kayıtlı el bilginizi girin."
                                                 name="email" />
                                         </div>
                                         <div className="form-group">
@@ -39,15 +42,15 @@ function Signin() {
                                                 </label>
                                             </div>
                                             <div className="form-group mb-0">
-                                                <Link href="reset.html">Şifremi Unuttum</Link>
+                                                <Link to={'./forgot-password'}>Şifremi Unuttum</Link>
                                             </div>
                                         </div>
                                         <div className="text-center">
-                                            <Link to={'./otp-1'} type="submit" className="btn btn-success btn-block">Sign in</Link>
+                                            <Link to={'./sign-in'} type="submit" className="btn btn-primary btn-block">Giriş Yap</Link>
                                         </div>
                                     </form>
-                                    <div className="new-account mt-3">
-                                        <p>Hesabınız yok mu? <Link className="text-primary" href="signup.html">Üyelik Talebi Oluştur.</Link></p>
+                                    <div className="new-account caption mt-3">
+                                        <p>Hesabınız yok mu? <Link className="text-primary" to={'./sign-up'} >Üyelik Talebi Oluştur.</Link></p>
                                     </div>
                                 </div>
                             </div>
@@ -55,6 +58,7 @@ function Signin() {
                     </div>
                 </div>
             </div>
+            <Footer1 />
         </>
     )
 }

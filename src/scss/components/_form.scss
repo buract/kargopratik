@@ -10,6 +10,9 @@
 }
 
 .form-control {
+    @include respond('phone'){
+        font-size: 12px;
+    }
     border-radius: 4px;
     height: 50px;
     border: 1px solid $border-color;
@@ -92,7 +95,7 @@
 
 .toggle-switch {
     display: inline-block;
-    background: #423A6F;
+    background: #000000;
     border-radius: 16px;
     width: 45px;
     height: 20px;
