@@ -29,8 +29,8 @@ function Header1() {
                                         </Nav>
                                         <Nav className="navigation ">
                                             
-                                            <Nav.Item><Link className="btn text-primary" to={'/signin'}>Giriş Yap</Link></Nav.Item>
-                                            <Nav.Item className="ml-0"><Link className="btn  btn-primary" to={'/signin'}>Kayıt Ol</Link></Nav.Item>
+                                            <Nav.Item><Link className="btn text-primary" to={'/sign-in'}>Giriş Yap</Link></Nav.Item>
+                                            <Nav.Item className="ml-0"><Link className="btn  btn-primary" to={'/sign-up'}>Kayıt Ol</Link></Nav.Item>
                                             
                                                 
 

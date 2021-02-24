@@ -8,7 +8,7 @@ import heroMobile from '../../../images/hero-mobile.png';
 import Testimonial from '../../element/testimonial';
 import { Accordion, Tabs, Tab, Card } from 'react-bootstrap';
 import bg from '../../../images/linearbg.png';
-import Modal from '../../component/modal';
+import ModalCalc from '../../element/modal';
 
 function App() {
     return (
@@ -129,7 +129,7 @@ function App() {
                                 <p className="my-lg-4">10,90’dan başlayan fiyatlarla gönderilerinizde <br /> %60’ye varan indirimlerden faydalanın.</p>
                                 {/*<Link to={'#'} className="btn  btn-primary">Gönderi Hesapla</Link>*/}
 
-                                <Modal name="Gönderi Hesapla" className="btn  btn-primary"/>
+                                <ModalCalc classText="button"></ModalCalc>
 
                                 <Link to={'#'} className="btn  text-primary">Tüm Fiyatları Keşfet</Link>
 

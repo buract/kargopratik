@@ -27,7 +27,7 @@ import Otp2 from './pages/otp-2';
 import PrivacyPolicy from './pages/privacy-policy';
 import ForgotPassword from './pages/customer/authentication/forgot-password';
 import Signin from './pages/customer/authentication/signin';
-import Signup from './pages/signup';
+import Signup from './pages/customer/authentication/signup';
 import TermsCondition from './pages/terms-condition';
 import VerifyStep1 from './pages/verify-step-1';
 import SignupStep2 from './pages/customer/authentication/signup-step-2';
