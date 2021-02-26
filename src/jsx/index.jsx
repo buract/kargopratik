@@ -35,6 +35,7 @@ import AdminSettingsSecurity from './pages/admin/settings/admin-settings-securit
 import ShipmentDetail from './pages/customer/shipments/shipment-detail';
 import LandingPage from './pages/guest';
 import HowItWorks from './pages/guest/how-it-works';
+import ShipmentDetailMultiple from './pages/customer/shipments/shipment-detail-multiple';
 
 
 class Index extends Component {
@@ -78,6 +79,7 @@ class Index extends Component {
                             <Route path='/admin-settings-preferences' component={AdminPreferences} />
                             <Route path='/admin-settings-security' component={AdminSettingsSecurity} />
                             <Route path='/shipment-detail' component={ShipmentDetail} />
+                            <Route path='/shipment-detail-multiple' component={ShipmentDetailMultiple} />
                             <Route path='/how-it-works' component={HowItWorks} />
                             
                         </Switch>

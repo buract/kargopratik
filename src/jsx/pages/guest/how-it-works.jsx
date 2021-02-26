@@ -12,6 +12,9 @@ function HowItWorks() {
 
     return (
         <>
+        <div className="white-bg">
+
+        
             <Header1 />
             <div className="row ">
                         <div className="col-12 mt-5 d-flex intro-inner justify-content-center">
@@ -20,7 +23,7 @@ function HowItWorks() {
                                     Kargomu Nasıl Gönderirim?
                                 </h1>
                                 <h4>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Sadece dakikalar içinde üye olabilir ve gönderinizi hazırlamaya başlayabilirsiniz
                                 </h4>
                             </div>
                         </div>
@@ -143,6 +146,7 @@ function HowItWorks() {
             <Bottom />
 
             <Footer1 />
+            </div> 
         </>
     )
 }
