@@ -59,7 +59,7 @@
   -webkit-text-fill-color: transparent;
 }
 #root{
-  background: $white;
+  background: $bg-gradient;
 }
 
 .dot-grad-1{
@@ -188,6 +188,10 @@ animation: random 7s infinite;
 }
 
 
+}
+
+.white-bg{
+  background: $white;
 }
 
 

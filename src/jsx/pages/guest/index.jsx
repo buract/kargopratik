@@ -5,14 +5,17 @@ import Footer1 from '../../layout/footer1';
 import Bottom from '../../element/bottom';
 import hero from '../../../images/hero-2.png';
 import heroMobile from '../../../images/hero-mobile.png';
-import Testimonial from '../../element/testimonial';
+
 import { Accordion, Tabs, Tab, Card } from 'react-bootstrap';
-import bg from '../../../images/linearbg.png';
+
 import ModalCalc from '../../element/modal';
 
 function App() {
     return (
         <>
+            <div className="white-bg">
+
+            
             <Header1 />
             <div className="intro">
                 <div className="">
@@ -298,6 +301,7 @@ function App() {
             <Bottom />
 
             <Footer1 />
+            </div>
         </>
     )
 }

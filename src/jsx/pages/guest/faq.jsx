@@ -10,7 +10,12 @@ import Bottom from '../../element/bottom';
 function Faq() {
 
     return (
-        <><Header1 />
+        <>
+        <div className="white-bg">
+
+        
+
+        <Header1 />
             <div className="terms_condition">
                 <div className="container">
                     <div className="row">
@@ -20,7 +25,7 @@ function Faq() {
                                     Sıkça Sorulan Sorular
                                 </h1>
                                 <h4>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                KargoPratik hakkında merak ettiğiniz her konuya buradan ulaşabilirsiniz.
                                 </h4>
                             </div>
                         </div>
@@ -162,6 +167,7 @@ function Faq() {
            <Bottom />
 
             <Footer1 />
+            </div> 
 
         </>
     )
